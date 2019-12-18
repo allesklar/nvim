@@ -7,7 +7,8 @@ colorscheme jellybeans  " the best by far. Subjectively
 set hlsearch            " highlight search terms upon 'enter'
 set incsearch           " highlight search terms live
 
-set number			        "	show line numbers on the left side
+" set number			        "	show line numbers on the left side
+set relativenumber      " use relative numbers for easy navigation
 set ruler				        "	show line and character number in bottom right of screen
 set cursorline	        " highlight the cursorline.
 
