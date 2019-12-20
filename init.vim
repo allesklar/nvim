@@ -1,4 +1,4 @@
-"	The line below should come first!
+" The line below should come first!
 " OPTIMIZE	This might not be needed with neovim
 set nocompatible	"	use vim superior vim settings rather than plain vi ones
 
@@ -94,3 +94,22 @@ let NERDTreeAutoDeleteBuffer = 1
 " nicely format NERDTree with expand/collapse arrows
 let NERDTreeDirArrows = 1
 
+""""" Nerdcommenter """"" toggle comments
+" required by nerdcommenter instructions
+filetype plugin on
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+" Enable NERDCommenterToggle to check all selected lines is commented or not
+let g:NERDToggleCheckAllLines = 1
