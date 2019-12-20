@@ -85,6 +85,7 @@ autocmd vimenter * NERDTree
 set rtp+=/usr/local/opt/fzf
 
 " PLUGIN SETTINGS:
+
 """""" NERDTree
 let NERDTreeShowHidden=1
 " open NERTTree to current file
@@ -94,8 +95,10 @@ let NERDTreeAutoDeleteBuffer = 1
 " nicely format NERDTree with expand/collapse arrows
 let NERDTreeDirArrows = 1
 
-""""" Nerdcommenter """"" toggle comments
-" required by nerdcommenter instructions
+""""" NERDcommenter """"" toggle comments
+""" default mappings found at: https://github.com/scrooloose/nerdcommenter
+" main one i use is <leader>ci <<< comments inverse
+""" required by nerdcommenter instructions
 filetype plugin on
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
