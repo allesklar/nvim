@@ -51,6 +51,8 @@ inoremap kk <Esc>
 let mapleader=" "
 " just press one key to go to command mode
 nnoremap ; :
+" use z instead of 0 to go to begining of line
+nnoremap z 0
 " see all buffers
 " nnoremap <leader>bfs :buffers<cr>
 " launch fuzzy finder - ff -> find file
