@@ -52,8 +52,8 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>0
-inoremap {;<CR> {<CR>};<ESC>0
+inoremap {<CR> {<CR><Tab><CR>}<Up>
+inoremap {;<CR> {<CR><Tab><CR>};<Up>
 """ NORMAL MODE:
 " The map leader is the space bar
 let mapleader=" "
