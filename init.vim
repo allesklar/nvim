@@ -40,13 +40,21 @@ autocmd BufWritePre * %s/\s\+$//e
 
 set encoding=utf-8
 
-"MAPPINGS:
-" INSERT MODE:
+""""" MAPPINGS:
+""" INSERT MODE:
 " on the mac i use karabiner-element to map Caps lock to Esc
 " but on servers i use kk
 " remapping 'kk' to the Escape key
 inoremap kk <Esc>
-" NORMAL MODE:
+" automatically append closing characters
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>0
+inoremap {;<CR> {<CR>};<ESC>0
+""" NORMAL MODE:
 " The map leader is the space bar
 let mapleader=" "
 " just press one key to go to command mode
