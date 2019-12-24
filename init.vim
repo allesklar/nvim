@@ -48,7 +48,7 @@ set encoding=utf-8
 inoremap kk <Esc>
 " automatically append closing characters
 inoremap " ""<left>
-inoremap ' ''<left>
+" inoremap ' ''<left> " single quotes are often used in regular English speech
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
