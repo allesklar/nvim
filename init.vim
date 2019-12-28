@@ -26,9 +26,12 @@ set linebreak
 set nolist              " list disables linebreak
 
 " ================ status line  ==============
-set laststatus=2
-set statusline=
-set statusline+=\ %f
+" don't show current status in bottommost line
+set noshowmode
+""" using lightline plugin
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ }
 
 " ================ Turn Off Swap Files ==============
 set noswapfile
