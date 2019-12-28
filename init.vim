@@ -1,7 +1,6 @@
-" The line below should come first!
-" OPTIMIZE	This might not be needed with neovim
-set nocompatible	"	use vim superior vim settings rather than plain vi ones
+" ================ NEOVIM configuration  ==============
 
+" highlighting
 syntax enable           " syntax highlighting
 colorscheme jellybeans  " the best by far. Subjectively
 set hlsearch            " highlight search terms upon 'enter'
