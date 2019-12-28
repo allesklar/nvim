@@ -1,5 +1,3 @@
-" ================ NEOVIM configuration  ==============
-
 " highlighting
 syntax enable           " syntax highlighting
 colorscheme jellybeans  " the best by far. Subjectively
@@ -69,6 +67,8 @@ nnoremap <leader>ff	:FZF<cr>
 nnoremap <leader>nd	:NERDTree<cr>
 " save
 nnoremap <leader>s	:w<cr>
+" select all and copy to clipboard
+nnoremap <leader>ya :%y+<cr>
 " open a new vertical split and switch over to it.
 nnoremap <leader>w <C-w>v<C-w>l
 " move around windows directionally with ctrl key
