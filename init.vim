@@ -1,3 +1,5 @@
+" -----NEOVIM Configuration-----"
+
 " highlighting
 syntax enable           " syntax highlighting
 colorscheme jellybeans  " the best by far. Subjectively
