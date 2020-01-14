@@ -79,7 +79,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 " Close buffer without closing the window
-nnoremap <leader>b :bp\|bd<space>#<cr>
+nnoremap <leader>r :bp\|bd<space>#<cr>
 
 " ================ LANGUAGES ==============
 " ===== RUST
