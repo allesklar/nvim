@@ -80,6 +80,10 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 " Close buffer without closing the window
 nnoremap <leader>r :bp\|bd<space>#<cr>
+""" VISUAL MODE:
+" copy selected text to clipboard
+xnoremap y :"*y
+
 
 " ================ LANGUAGES ==============
 " ===== RUST
