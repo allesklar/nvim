@@ -96,8 +96,6 @@ let g:autofmt_autosave = 1
 " PLUGINS:
 " the pathogen plugin helps installing all other plugins
 execute pathogen#infect()
-" autostart NERDTree at current directory when vim starts
-autocmd vimenter * NERDTree
 " fzf fuzzyfinder installed via homebrew
 set rtp+=/usr/local/opt/fzf
 
