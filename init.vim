@@ -102,6 +102,8 @@ set rtp+=/usr/local/opt/fzf
 " PLUGIN SETTINGS:
 """""" vimwiki
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.wiki'}]
+" save all vimwiki buffers upon exit
+let g:vimwiki_autowriteall = 1
 
 """""" NERDTree
 let NERDTreeShowHidden=1
