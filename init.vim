@@ -100,6 +100,8 @@ execute pathogen#infect()
 set rtp+=/usr/local/opt/fzf
 
 " PLUGIN SETTINGS:
+"""""" vimwiki
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.wiki'}]
 
 """""" NERDTree
 let NERDTreeShowHidden=1
