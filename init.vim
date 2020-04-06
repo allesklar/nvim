@@ -72,7 +72,9 @@ nnoremap <leader>s	:w<cr>
 " select all and copy to clipboard
 nnoremap <leader>ya :%y+<cr>
 " open a new vertical split and switch over to it.
-nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>wl <C-w>v<C-w>l
+" open a new horizontal split and switch over to it.
+nnoremap <leader>wj <C-w>s<C-w>j
 " move around windows directionally with ctrl key
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
