@@ -84,7 +84,8 @@ nnoremap <C-l> <C-w>l
 " Close buffer without closing the window
 nnoremap <leader>r :bp\|bd<space>#<cr>
 " vimgrep throughout the whole project
-nnoremap <leader>vg :vimgrep //gj **/* \| :copen<left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
+" \c in the search pattern is for the search to be case insensitive
+nnoremap <leader>vg :vimgrep /\c/gj **/* \| :copen<left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
 " Ajust window size between 3 and 30 rows when viewing quicklist (via :copen)
 au FileType qf call AdjustWindowHeight(3, 30)
 function! AdjustWindowHeight(minheight, maxheight)
