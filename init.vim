@@ -60,6 +60,9 @@ inoremap ` ``<left>
 let mapleader=" "
 " just press one key to go to command mode
 nnoremap ; :
+" reverse the mapping to use `;` to go to next 'f' letter
+" it doesn't work
+" nnoremap :
 " use z instead of 0 to go to begining of line
 nnoremap z 0
 " see all buffers
