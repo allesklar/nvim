@@ -94,6 +94,7 @@ au FileType qf call AdjustWindowHeight(3, 30)
 function! AdjustWindowHeight(minheight, maxheight)
   exe max([min([line("$"), a:maxheight+1]), a:minheight+2]) . "wincmd _"
 endfunction
+nnoremap <leader>gg :! git grep --ignore-case -n
 
 """ VISUAL MODE:
 " copy selected text to clipboard
