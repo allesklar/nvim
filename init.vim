@@ -84,6 +84,11 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+" resizing current buffer window
+noremap <leader><left> 5<C-w><\<><CR>
+noremap <leader><right> 5<C-w>><CR>
+noremap <leader><up> :res +5<CR>
+noremap <leader><down> :res -5<CR>
 " Close buffer without closing the window
 nnoremap <leader>r :bp\|bd<space>#<cr>
 " vimgrep throughout the whole project
